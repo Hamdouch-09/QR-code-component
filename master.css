@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    place-items: center;
+}
+
+
+/* start main content */
+.container {
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+/* figure image */
+.container .qr-code-component {
+    background-color: hsl(0, 0%, 100%);
+    width: 18em;
+    padding: 0.9em;
+    border-radius: 5%;
+    display: grid;
+    justify-content: center;
+}
+
+/* Mobile screens */
+@media (max-width :375px) {
+    .container .qr-code-component {
+        width: 16em;
+    }
+}
+
+/* image */
+.container .qr-code-component img {
+    display: block;
+    width: 100%;
+    border-radius: 5%;
+}
+
+/* figcaption */
+.qr-code-caption {
+    display: grid;
+    justify-content: center;
+}
+
+/* figcaption h1 */
+.qr-code-caption h1 {
+    margin: 1em auto;
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+/* Mobile screens */
+@media (max-width :375px) {
+    .qr-code-caption h1 {
+        font-size: 18px;
+    }
+}
+
+
+/* figcaption phargraph */
+.qr-code-caption p {
+    margin: 0 auto 1em auto;
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+/* End main content */
+
+/* Start footer */
+.attribution {
+    margin-top: 1em;
+    padding: 0.6em;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+}
+
+/* Links footer */
+.attribution>a {
+    text-decoration: none;
+    color: hsl(218, 44%, 22%);
+}
+
+.attribution>a:hover {
+    text-decoration: underline;
+
+}
+
+/* End footer */
