@@ -5,9 +5,16 @@
     font-family: "Outfit", sans-serif;
 }
 
+html {
+    --main-color: hsl(212, 45%, 89%);
+    --special-color: hsl(218, 44%, 22%);
+    --pharagraph-color: hsl(216, 15%, 48%);
+    --card-color: hsl(0, 0%, 100%);
+}
+
 body {
     min-height: 100vh;
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--main-color);
     display: grid;
     place-items: center;
 }
@@ -15,7 +22,7 @@ body {
 
 /* start main content */
 .container {
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--main-color);
     width: 100%;
     display: grid;
     place-items: center;
@@ -23,8 +30,8 @@ body {
 
 /* figure image */
 .container .qr-code-component {
-    background-color: hsl(0, 0%, 100%);
-    width: 18em;
+    background-color: var(--card-color);
+    width: 18rem;
     padding: 0.9em;
     border-radius: 5%;
     display: grid;
@@ -34,14 +41,15 @@ body {
 /* Mobile screens */
 @media (max-width :375px) {
     .container .qr-code-component {
-        width: 16em;
+        width: 16rem;
     }
 }
 
 /* image */
 .container .qr-code-component img {
     display: block;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     border-radius: 5%;
 }
 
@@ -53,8 +61,8 @@ body {
 
 /* figcaption h1 */
 .qr-code-caption h1 {
-    margin: 1em auto;
-    color: hsl(218, 44%, 22%);
+    margin: 1rem auto;
+    color: var(--special-color);
     font-size: 20px;
     font-weight: 700;
     width: 100%;
@@ -71,8 +79,8 @@ body {
 
 /* figcaption phargraph */
 .qr-code-caption p {
-    margin: 0 auto 1em auto;
-    color: hsl(216, 15%, 48%);
+    margin: 0 auto 1rem auto;
+    color: var(--pharagraph-color);
     font-size: 15px;
     font-weight: 400;
     width: 100%;
@@ -83,17 +91,17 @@ body {
 
 /* Start footer */
 .attribution {
-    margin-top: 1em;
-    padding: 0.6em;
+    margin-top: 1rem;
+    padding: 0.6rem;
     text-align: center;
-    color: hsl(218, 44%, 22%);
+    color: var(--special-color);
     font-size: 15px;
 }
 
 /* Links footer */
 .attribution>a {
     text-decoration: none;
-    color: hsl(218, 44%, 22%);
+    color: var(--special-color);
 }
 
 .attribution>a:hover {
