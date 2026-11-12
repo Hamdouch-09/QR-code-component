@@ -32,7 +32,8 @@ body {
 .container .qr-code-component {
     background-color: var(--card-color);
     width: 18rem;
-    padding: 0.9em;
+    height: 100%;
+    padding: 0.9rem;
     border-radius: 5%;
     display: grid;
     justify-content: center;
@@ -63,7 +64,7 @@ body {
 .qr-code-caption h1 {
     margin: 1rem auto;
     color: var(--special-color);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     width: 100%;
     text-align: center;
@@ -72,7 +73,7 @@ body {
 /* Mobile screens */
 @media (max-width :375px) {
     .qr-code-caption h1 {
-        font-size: 18px;
+        font-size: 1rem;
     }
 }
 
@@ -81,7 +82,7 @@ body {
 .qr-code-caption p {
     margin: 0 auto 1rem auto;
     color: var(--pharagraph-color);
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     width: 100%;
     text-align: center;
@@ -91,11 +92,12 @@ body {
 
 /* Start footer */
 .attribution {
+    display: none;
     margin-top: 1rem;
     padding: 0.6rem;
     text-align: center;
     color: var(--special-color);
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 /* Links footer */
