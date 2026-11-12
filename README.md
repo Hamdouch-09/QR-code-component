@@ -13,7 +13,7 @@ This project is a solution to the **QR code component challenge** on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/qr-code-component-using-css-grid-and-semantic-html5-elements-yi3z3HvLHQ)
 - Live Site URL: [Live Site URL](https://hamdouch-09.github.io/QR-code-component/)
 
 ## My process
@@ -64,9 +64,7 @@ body {
 }
 ```
 
-- **Relative Units (`em`):** I utilized `em` units
-  for padding and sizing to ensure proportional scaling that adapts nicely with
-  font sizes.
+- - **Relative Units (`rem`):** Utilized `rem` units for padding and sizing to ensure a proportional, scalable layout that gracefully adapts to different font sizes.
 
 ```css
 .container .qr-code-component {
@@ -81,12 +79,10 @@ body {
 
 ### Continued development
 
-Moving forward, I aim to continuously improve my front-end development skills and gain deeper industry experience. My future learning goals include:
-
-- Mastering **JavaScript** to build interactive web applications.
-- Learning **SASS** to write cleaner, more maintainable, and advanced CSS stylesheets.
-- Exploring modern front-end **Frameworks** to scale my projects.
-- Venturing into back-end development by learning languages like **PHP** and **Python** to build large-scale, professional dynamic websites.
+- Aim to improve the responsiveness of this design in the future.
+- Test the component across different screen sizes.
+- Test different fonts.
+- Translate the README file.
 
 ### Useful resources
 
