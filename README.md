@@ -14,7 +14,7 @@ This project is a solution to the **QR code component challenge** on Frontend Me
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site URL](https://hamdouch-09.github.io/QR-code-component/)
 
 ## My process
 
@@ -90,7 +90,7 @@ Moving forward, I aim to continuously improve my front-end development skills an
 
 ### Useful resources
 
-- [Example resource](https://elzero.org/tracks/front-end/) - This platform and its free courses, along with practical assignments after each lesson, have helped me tremendously in my learning journey. It is where I learned the most important fundamentals of web development.
+- [Elzero Web School](https://elzero.org/tracks/front-end/) - This platform and its free courses, along with practical assignments after each lesson, have helped me tremendously in my learning journey. It is where I learned the most important fundamentals of web development.
 
 ### AI Collaboration
 
@@ -101,8 +101,6 @@ Moving forward, I aim to continuously improve my front-end development skills an
 
 - Frontend Mentor - [@Hamdouch-09](https://www.frontendmentor.io/profile/Hamdouch-09)
 - Twitter - [@Hmadouch_09](https://x.com/Hmadouch_09)
-
-## Acknowledgments
 
 ## Acknowledgments
 
