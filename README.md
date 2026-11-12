@@ -38,7 +38,10 @@ This project is a solution to the **QR code component challenge** on Frontend Me
   <!--main content -->
   <main class="container">
     <figure class="qr-code-component">
-      <img src="./images/image-qr-code.png" alt="QR Code" />
+      <img
+        src="./images/image-qr-code.png"
+        alt="QR code linking to Frontend Mentor"
+      />
       <figcaption class="qr-code-caption">
         <h1>Improve your front-end skills by building projects</h1>
         <p>
@@ -58,7 +61,7 @@ This project is a solution to the **QR code component challenge** on Frontend Me
 ```css
 body {
   min-height: 100vh;
-  background-color: hsl(212, 45%, 89%);
+  background-color: var(--main-color);
   display: grid;
   place-items: center;
 }
@@ -68,9 +71,10 @@ body {
 
 ```css
 .container .qr-code-component {
-  background-color: hsl(0, 0%, 100%);
-  width: 18em;
-  padding: 0.9em;
+  background-color: var(--card-color);
+  width: 18rem;
+  height: 100%;
+  padding: 0.9rem;
   border-radius: 5%;
   display: grid;
   justify-content: center;
